@@ -1,89 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
-    <script type="" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-    <style>
-
-    </style>
+    <title>Document</title>
 </head>
-
 <body>
-    <div style="margin: 20px;">
-        <button id="up-arrow"><i class="fa fa-arrow-up" aria-hidden="true"></i>Up</button>
-        <button id="down-arrow"><i class="fa fa-arrow-down" aria-hidden="true">Down</i></button>
-        <button id="right-arrow"><i class="fa fa-arrow-right" aria-hidden="true">Right</i></button>
-        <button id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true">Left</i></button>
-        <button id="Delete"><i class="fa fa-trash" aria-hidden="true"></i>Delet</button>
-        <button id="Edit"><i class="fa fa-pencil" aria-hidden="true"></i>Edit</button>
-        <button id="new-swim-lane"><i class="fa fa-plus" aria-hidden="true"></i>Add Swim Lane</button>
-        <button id="new-card"><i class="fa fa-plus" aria-hidden="true"></i>Add Card</button>
-    </div>
-    <div style="display: flex;">
-        <div id="container-one">
-            <div id="child-container"></div>
-        </div>
-        <div id="container-two"></div>
-        <div id="container-three"></div>
-    </div>
-    <script src="index.js"></script>
-    <script src="index-2.js"></script>
-    <script>
-
-    var swimLane = document.createElement('div');
-    swimeLane.setAttribute('id', 'swim-lane')
     
-    
-
-    var btnRA = document.getElementById('right-arrow');
-
-    btnRA.addEventListener('click', function() {
-                prompt('did right-arrow work?');
-        });
-
-	var btnLA = document.getElementById('left-arrow');
-
-	    btnLA.addEventListener('click', function() {
-	                prompt('did left-arrow work?');
-	    });
-
-	var btnUA = document.getElementById('up-arrow');
-
-	    btnUA.addEventListener('click', function() {
-
-	                prompt('did up-arrow work?');
-	    });
-
-	var btnDA = document.getElementById('down-arrow');
-	    btnDA.addEventListener('click', function() {
-	                prompt('did down-arrow work?');
-	    });
-
-	var btnD = document.getElementById('Delete');
-
-    btnD.addEventListener('click', function() {
-                prompt('did it allow you to delete that item?');
-       });
-	var btnE = document.getElementById('Edit');
-
-	    btnE.addEventListener('click', function() {
-	                prompt('are you able to edit?');
-	    });
-	var btnNSL = document.getElementById('new-swim-lane');
-
-	    btnNSL.addEventListener('click', function() {
-	                prompt('did it add a new swim lane?');
-	    });
-	var btnNC = document.getElementById('new-card');
-	    btnNC.addEventListener('click', function() {
-	                prompt('did it add a new card?');
-	    });
-
-    </script>
 </body>
-
 </html>
